@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Farm-2-Home</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href='css/index.css'>
+    
+</head>
+
+<body>
+    <section id="welcome">
+        <div class="container">
+            <center>
+            <header class="header">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#welcome" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#about_us" class="nav__link">About Us</a></li>
+                        <li class="nav__item"><a href="#product" class="nav__link">Products</a></li>
+                        <li class="nav__item"><a href="#contact_us" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="login.html" class="nav__link">Login</a></li>
+                        <li class="nav__item"><a href="signup.html" class="nav__link">Sign Up</a></li>
+                    </ul>
+                </nav>
+            </header>
+            </center>
+            <b><p class="pagename1">Farm</p><p class="pagename2">2</p><p class="pagename3">Home</p></b>
+            <div id="auto-typing" class="auto-div">  </div>
+            <a href="signup.html" class="my-button">Get Start</a>
+        </div>
+    </section>
+
+    <section id="about_us">
+        <div class="about_container">
+            <div class="aboutus_texts">
+            
+                <b>
+                    <p class="aboutus_title">Welcome to our Farm2Home Platform, where farmers come together to connect, trade, and
+                        thrive.</p>
+                </b>
+
+                <a href="signup.html" class="joinus_button">Connect</a>
+            
+                <b><p class="aboutus_para">Join us today to be part of the digital transformation of farming, connect with other farmers, grow your business, and
+                contribute to a sustainable future.</p></b>
+            
+            </div>
+        </div>
+    </section>
+
+
+    <section id="product">
+        <div class="product_container">
+            <div class="box1" id="box1">
+                <b>
+                    <p style="position: absolute; top:33%; left:32%; font-size:40px; color:rgb(22, 73, 22);">Farm</p><br>
+                    <p style="position: absolute; top:34%; left:43%; font-size:65px">2</p><br>
+                    <p style="position: absolute; top:55%; left:28%; font-size:40px; color:#d3933f;">Home</p>
+                </b><br>
+                <p style="position: absolute; top:75%; padding:5px;  text-align:center;">Discover the joy of farm-fresh,
+                    delicious, and sustainable Products</p>
+                <a href="#welcome"><span class="link"></span></a>
+            </div>
+            <div class="box2" id="box2">
+                <div class="product_details">
+                    <img src="images/black_bg.jpeg" class="black_bg">
+                    <button class="fruit-button">Explore </button>
+                </div>
+    
+            </div>
+            <div class="box3" id="box3">
+                <div class="product_details">
+                    <img src="images/black_bg.jpeg" class="black_bg">
+                    <button class="fruit-button">Explore </button>
+                </div>
+    
+            </div>
+            <div class="box4" id="box4">
+                <div class="product_details">
+                    <img src="images/black_bg.jpeg" class="black_bg">
+                    <button class="fruit-button">Explore </button>
+                </div>
+            
+            </div>
+            <div class="box5" id="box5">
+                <div class="product_details">
+                    <img src="images/black_bg.jpeg" class="black_bg">
+                    <button class="fruit-button">Explore </button>
+                </div>
+        </div>
+    </section>
+    <section id="contact_us">
+        <div class="contactus_container">
+            <div class="contact">
+                <b>
+                    <p style="font-size: 30px;">Have questions or feedback? <br>Contact us using the form below.</p>
+                </b>
+                <label for="">Email Id:</label><br>
+                <input type="email" id="emailid" placeholder="abc@gmail.com"><br>
+                <label for="">How may we help you?</label><br>
+                <textarea name="subject" id="subject" cols="48" rows="9"></textarea>
+                <button class="send_button">Submit</button>
+            </div>
+        
+            <div class="social_media">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+        
+            </div>
+        </div>
+
+    </section>
+    <div class="footer_container">
+        <center>
+            <p>&copy; 2023 Farm 2 Home. All rights yet to receive. | Website by Manoj</p>
+        </center>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        const paragraph = " Welcome to Agricultural Marketplace, Connecting Farmers and Buyers for Direct Transactions and Eliminate Middlemen and Improve Access to Markets";
+
+        let index = 0;
+        const typingSpeed = 50; // milliseconds
+        const autoTypingElement = document.getElementById('auto-typing');
+
+        function typeNextLetter() {
+            autoTypingElement.textContent += paragraph[index];
+            index++;
+            if (index < paragraph.length) {
+                setTimeout(typeNextLetter, typingSpeed);
+            }
+        }
+
+        typeNextLetter();
+
+
+        
+            const box1 = document.getElementById("box1");
+                const box2 = document.getElementById("box2");
+                const box3 = document.getElementById("box3");
+                const box4 = document.getElementById("box4");
+                const box5 = document.getElementById("box5");
+
+                box1.addEventListener("mouseover", () => {
+                    box2.style.left = "32%";
+                    box3.style.left = "8%";
+                    box4.style.left = "38%";
+                    box5.style.left = "2%";
+                });
+
+                box1.addEventListener("mouseout", () => {
+                    box2.style.left = "30%";
+                    box3.style.left = "10%";
+                    box4.style.left = "35%";
+                    box5.style.left = "5%";
+                });
+
+    </script>
+</body>
+
+</html>

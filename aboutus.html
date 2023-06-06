@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Webpage Example</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <style>
+         body{
+            background-color: rgb(22, 73, 22);
+            font-family: poppins;
+        }
+
+        .product_container {
+            background-image: url('images/prod_alter-bg.png');
+            background-size: 100%;
+            background-position: right;
+            padding: 10px;
+            box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+            width: 95%;
+            height: 585px ;
+            margin: 50px auto;
+            position: relative;
+            border-radius: 12px;
+        }
+        .box1{
+            background-image: url('images/product_welcome.png');
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+            width: 15%;
+            height: 70%;
+            border-radius: 12px;
+            position: absolute;
+            top: 15%;
+            left: 20%;
+            z-index: 2;
+        }
+
+        .box2{
+            background-image: url('images/product_fruitbg.jpg');
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+            width: 15%;
+            height: 65%;
+            border-radius: 12px;
+            position: absolute;
+            top: 17.5%;
+            left: 30%;
+            z-index: 1;
+            transition: 0.5s ease-in-out;
+        }
+        .product_details{
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+            display: none;
+        }
+        .black_bg{
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+            opacity: 80%;
+        }
+        .box3{
+            background-image: url('images/product_vegbg.jpg');
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+            width: 15%;
+            height: 65%;
+            border-radius: 12px;
+            position: absolute;
+            top: 17.5%;
+            left: 10%;
+            z-index: 1;
+            transition: 0.5s ease-in-out;
+        }
+        .box4{
+            background-image: url('images/product_fertlizerbg.jpg');
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+            width: 15%;
+            height: 60%;
+            border-radius: 12px;
+            position: absolute;
+            top: 20%;
+            left: 35%;
+            z-index: 0;
+            transition: 0.5s ease-in-out;
+        }
+        .box5{
+            background-image: url('images/product_seedbg.jpg');
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+            width: 15%;
+            height: 60%;
+            border-radius: 12px;
+            position: absolute;
+            top: 20%;
+            left: 5%;
+            z-index: 0;
+            transition: 0.5s ease-in-out;
+        }
+        .box2:hover{
+            z-index: 3;
+            height: 75%;
+            top: 13%;
+            transition: 0.5s ease-in-out;
+        }
+        .box3:hover{
+            z-index: 3;
+            height: 75%;
+            top: 13%;
+            transition: 0.5s ease-in-out;
+        }
+        .box4:hover{
+            z-index: 2;
+            height: 75%;
+            top: 13%;
+            transition: 0.5s ease-in-out;
+        }
+        .box5:hover{
+            z-index: 2;
+            height: 75%;
+            top: 13%;
+            transition: 0.5s ease-in-out;
+        }
+
+        .box2:hover > .product_details{
+            display: block;
+        }
+        .box3:hover > .product_details{
+            display: block;
+        }
+        .box4:hover > .product_details{
+            display: block;
+        }
+        .box5:hover > .product_details{
+            display: block;
+        }
+
+        .link {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        .fruit-button{
+            position: absolute;
+            font-size: xx-large;
+            right: 30%;
+            top: 45%;
+            background-color: #d3933f;
+            color: white;
+            border-radius: 12px;
+            border: 0px;
+            margin: 0px;
+            padding: 10px;
+        }
+        .fruit-button:hover{
+            background-color:rgb(22, 73, 22) ;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <section id="product">
+    <div class="product_container">
+        <div class="box1" id="box1">
+            <b><p style="position: absolute; top:33%; left:32%; font-size:40px; color:rgb(22, 73, 22);">Farm</p><br>
+            <p style="position: absolute; top:34%; left:43%; font-size:65px">2</p><br>
+            <p style="position: absolute; top:55%; left:28%; font-size:40px; color:#d3933f;">Home</p></b><br>
+            <p style="position: absolute; top:75%; padding:5px;  text-align:center;">Discover the joy of farm-fresh, delicious, and sustainable Products</p>
+            <a href="index.html"><span class="link"></span></a>
+        </div>   
+        <div class="box2" id="box2">
+            <div class="product_details">
+                <img src="images/black_bg.jpeg" class="black_bg">
+                <button class="fruit-button">Explore </button>
+            </div>
+
+        </div>
+        <div class="box3" id="box3">
+            <div class="product_details">
+                <img src="images/black_bg.jpeg" class="black_bg">
+                <button class="fruit-button">Explore </button>
+            </div>
+        
+        </div>
+        <div class="box4" id="box4">
+            <div class="product_details">
+                <img src="images/black_bg.jpeg" class="black_bg">
+                <button class="fruit-button">Explore </button>
+            </div>
+        
+        </div>
+        <div class="box5" id="box5">
+            <div class="product_details">
+                <img src="images/black_bg.jpeg" class="black_bg">
+                <button class="fruit-button">Explore </button>
+            </div>
+        
+        </div>
+    </div>
+    </section>
+
+    <script>
+        const box1 = document.getElementById("box1");
+        const box2 = document.getElementById("box2");
+        const box3 = document.getElementById("box3");
+        const box4 = document.getElementById("box4");
+        const box5 = document.getElementById("box5");
+
+        box1.addEventListener("mouseover", () => {
+            box2.style.left = "32%";
+            box3.style.left = "8%";
+            box4.style.left = "38%";
+            box5.style.left = "2%";
+        });
+
+        box1.addEventListener("mouseout", () => {
+                box2.style.left = "30%";
+                box3.style.left = "10%";
+                box4.style.left = "35%";
+                box5.style.left = "5%";
+            });
+
+    </script>
+    
+</body>
+</html>

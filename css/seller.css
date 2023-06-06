@@ -1,0 +1,379 @@
+body {
+    background-color: rgb(26, 71, 53);
+    font-family: poppins;
+}
+
+.header_container {
+    background-color: white;
+    background-size: 100%;
+    background-position: center;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+    width: 95%;
+    height: 80px;
+    margin: 20px auto;
+    position: fixed;
+    top: 5px;
+    left: 39px;
+    border-radius: 12px;
+    z-index: 2;
+}
+
+.pagename1 {
+    position: relative;
+    bottom: 30px;
+    left: 2%;
+    font-size: 80px;
+    margin: 10px auto;
+    color: rgb(22, 73, 22);
+}
+
+.pagename2 {
+    position: relative;
+    left: 14%;
+    bottom: 175px;
+    font-size: 100px;
+    margin: 0px;
+}
+
+.pagename3 {
+    position: relative;
+    left: 18%;
+    bottom: 310px;
+    font-size: 80px;
+    margin: 0px;
+    color: #d3933f;
+}
+
+.header {
+    padding: 20px 0;
+    width: 60%;
+    position: relative;
+    bottom: 420px;
+    left: 29%;
+    margin: 0px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav__list {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav__item {
+    margin-right: 10px;
+}
+
+.nav__link {
+    color: #b11e1e;
+    text-decoration: none;
+    font-size: x-large;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+.nav__link:hover {
+    color: white;
+    background-color: rgb(26, 71, 53);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    transition: 0.3s ease-in-out;
+}
+
+.profile{
+    background-image: url(../images/Manoj.jpg);
+    background-position: center;
+    background-size: 90%;
+    width: 80px;
+    height: 80px;
+    z-index: 3;
+    position: relative;
+    bottom: 649%;
+    left: 93%;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.fa{
+    font-size: 50px;
+    position: relative;
+    bottom: 735%;
+    left: 88%;
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.seller_welcome {
+    background-image: url(../images/seller_bg1.png);
+    background-size: 100%;
+    background-position: center;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+    width: 95%;
+    height: 600px;
+    top: 10%;
+    margin: 50px auto;
+    margin-top: 150px;
+    position: relative;
+    border-radius: 12px;
+}
+.seller_wel_title{
+    font-size: 50px;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+    position: relative;
+    left: 0.5%;
+    top: 15%;
+}
+.seller_wel_text{
+    font-size: 30px;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+    position: relative;
+    left: 1%;
+}
+
+.graph_container {
+    background-color: #ffffff;
+    background-size: 100%;
+    background-position: center;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+    width: 95%;
+    height: 600px;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 12px;
+
+}
+
+.vegetable_graph_container {
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    position: absolute;
+    top: 15%;
+    left: 7%;
+}
+
+.fruit_graph_container {
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    position: absolute;
+    top: 15%;
+    left: 53%;
+}
+
+#vegetable-graph-canvas {
+    width: 40%;
+    height: auto;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+
+}
+
+#fruit-graph-canvas {
+    width: 40%;
+    height: auto;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+}
+
+.note {
+    padding-left: 4%;
+    padding-right: 4%;
+    position: absolute;
+    top: 85%;
+    font-size: 15px;
+    text-align: center;
+}
+
+.analyis_button {
+    font-size: 30px;
+    text-decoration: none;
+    background-color: rgb(160, 16, 16);
+    padding: 0px;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    left: 44.5%;
+    top: 78%;
+    width: 10%;
+    text-align: center;
+    font-weight: bolder
+}
+
+.analyis_button:hover {
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+    background-color: rgb(26, 71, 53);
+    transition: 0.3s ease-in-out;
+}
+.addproduct_container{
+    background-color: #ffffff;
+    background-size: 100%;
+    background-position: center;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+    width: 95%;
+    height: 600px;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 12px;
+}
+.fertilizer_box{
+    background-image: url(../images/fertilizer.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+    height: 70%;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+    border-radius: 12px;
+    margin: 50px;
+    position: relative;
+    transition: transform 0.8s ease-in-out;
+}
+
+#fertilizer_button{
+    font-size: 30px;
+    text-decoration: none;
+    position: absolute;
+    top: 75%;
+    background-color: #d3933f;
+    color: #ffffff;
+    margin: 50px;
+    width: 19%;
+    text-align: center;
+    padding: 8px;
+    border-radius: 12px;
+}
+.hovered{
+    animation: moveUp 2s linear infinite;
+}
+@keyframes moveUp{
+    0%{
+        transform: translateY(-30px) ;
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-30px);
+    }
+}
+#fertilizer_button:hover{
+    background-color: rgb(26, 71, 53);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+}
+.fruit_box{
+    background-image: url(../images/fruit.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+    height: 70%;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+    border-radius: 12px;
+    margin: 50px;
+    position: relative;
+    left: 25%;
+    bottom: 78.5%;
+    transition: transform 0.8s ease-in-out;
+}
+#fruit_button{
+    font-size: 30px;
+    text-decoration: none;
+    position: absolute;
+    top: 75%;
+    left:25.3%;
+    background-color: #d3933f;
+    color: #ffffff;
+    margin: 50px;
+    width: 19%;
+    text-align: center;
+    padding: 8px;
+    border-radius: 12px;
+}
+#fruit_button:hover{
+    background-color: rgb(26, 71, 53);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+}
+.vegetable_box{
+    background-image: url(../images/vegetable.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+    height: 70%;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+    border-radius: 12px;
+    margin: 50px;
+    position: relative;
+    left: 50%;
+    bottom: 156.9%;
+    transition: transform 0.8s ease-in-out;
+}
+#vegetable_button{
+    font-size: 30px;
+    text-decoration: none;
+    position: absolute;
+    top: 75%;
+    left:50%;
+    background-color: #d3933f;
+    color: #ffffff;
+    margin: 50px;
+    width: 19%;
+    text-align: center;
+    padding: 8px;
+    border-radius: 12px;
+}
+#vegetable_button:hover{
+    background-color: rgb(26, 71, 53);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+}
+.equipment_box {
+    background-image: url(../images/equipment.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+    height: 70%;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+    border-radius: 12px;
+    margin: 50px;
+    position: relative;
+    left: 75%;
+    bottom: 235%;
+    transition: transform 0.8s ease-in-out;
+}
+
+#equipment_button {
+    font-size: 30px;
+    text-decoration: none;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    background-color: #d3933f;
+    color: #ffffff;
+    margin: 50px;
+    width: 19%;
+    text-align: center;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+#equipment_button:hover {
+    background-color: rgb(26, 71, 53);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+}

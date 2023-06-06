@@ -1,0 +1,1 @@
+Vishwanath wants to write a Java program that takes user input from the console, writes it into a file, and then calculates the number of consonants in the input. But he is very shy to get help from others. Help Vishwanath with your code.

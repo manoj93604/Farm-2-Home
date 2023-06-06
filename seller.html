@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vegetable Price Graph</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href='css/seller.css'>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="vegetable_graph.js"></script>
+    <script src="fruit_graph.js"></script>
+</head>
+
+<body>
+    <section class="header">
+    <div class="header_container">
+        <b>
+            <p class="pagename1">Farm</p>
+            <p class="pagename2">2</p>
+            <p class="pagename3">Home</p>
+        </b>
+
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#welcome" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#product" class="nav__link">Price List</a></li>
+                    <li class="nav__item"><a href="#product" class="nav__link">Add Products</a></li>
+                    <li class="nav__item"><a href="#product" class="nav__link">My Products</a></li>
+                    <li class="nav__item"><a href="#contact_us" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="login.html" class="nav__link">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="profile">
+            <!-- need to add program for uploading profile picture -->
+        </div>
+        <!-- need to write code for chat box -->
+        <a href="" class="fa fa-comments-o" aria-hidden="true"></a>
+    </div>
+    </section>
+
+    <section class="welcome">
+    <div class="seller_welcome">
+        <p class="seller_wel_title">Welcome to our Farm2Home Platform!</p><br>
+        <p class="seller_wel_text">We are excited to have you join us as a seller and provide <br>
+        fresh and nutritious produce to our customers. <br>
+        Start setting up your store and selling your products today!</p>
+    </div>
+    </section>
+
+    <section class="graph">
+    <div class="graph_container">
+        <div class="vegetable_graph_container">
+            <canvas id="vegetable-graph-canvas"></canvas>
+        </div>
+        <div class="fruit_graph_container">
+            <canvas id="fruit-graph-canvas"></canvas>
+        </div>
+        <b><p class="note">The graph above displays the wholesale market prices of fruits and vegetables over the past 15 days. It is important to
+        note that prices in the retail market and shopping malls may differ depending on the location and other factors.
+        Therefore, the information provided in this graph is solely indicative of the wholesale market prices and may not
+        accurately reflect the prices in other markets.For a comprehensive analysis and detailed information, kindly click the "analysis" button to access further insights.</p></b>
+        <a href="#" class="analyis_button">Analyis</a>
+    </div>
+    </section>
+
+    <section class="add_products">
+        <div class="addproduct_container">
+            <div class="fertilizer_box" id="fertilizer_box">
+
+            </div>
+            <a href="" id="fertilizer_button">Add Fertilizer</a>
+
+            <div class="fruit_box" id="fruit_box">
+
+            </div>
+            <a href="" id="fruit_button">Add Fruits</a>
+
+            <div class="vegetable_box" id="vegetable_box">
+            
+            </div>
+            <a href="" id="vegetable_button">Add Vegetable</a>
+
+            <div class="equipment_box" id="equipment_box">
+            
+            </div>
+            <a href="" id="equipment_button">Add Equipment</a>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+<script>
+    fertilizer_button.onmouseenter = function () {
+        fertilizer_box.classList.add('hovered'); 
+        }
+    fertilizer_button.onmouseleave = function () {
+        fertilizer_box.classList.remove('hovered');
+    }
+    fruit_button.onmouseenter = function () {
+        fruit_box.classList.add('hovered');
+    }
+    fruit_button.onmouseleave = function () {
+        fruit_box.classList.remove('hovered');
+    }
+    vegetable_button.onmouseenter = function () {
+        vegetable_box.classList.add('hovered');
+    }
+    vegetable_button.onmouseleave = function () {
+        vegetable_box.classList.remove('hovered');
+    }
+    equipment_button.onmouseenter = function () {
+        equipment_box.classList.add('hovered');
+    }
+    equipment_button.onmouseleave = function () {
+        equipment_box.classList.remove('hovered');
+    }
+
+</script>
+   
+</body>
+
+</html>

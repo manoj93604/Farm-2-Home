@@ -1,0 +1,452 @@
+body{
+            background-color: rgb(22, 73, 22);
+            font-family: poppins;
+        }
+
+        .container {
+            background-image: url(../images/homepage1.jpg);
+            background-size: 100%;
+            background-position: center;
+            padding: 10px;
+            box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+            width: 95%;
+            height: 900px ;
+            margin: 50px auto;
+            position: relative;
+            border-radius: 12px;
+        }
+
+         #auto-typing {
+            text-align: center;
+            font-size: xx-large;
+            width: 50%;
+            background-color: rgb(255, 255, 255);
+            position:absolute;
+            top: 38%;
+            left: 25.5%;
+            font-family: Poppins;
+            font-weight: bolder;
+        }
+
+        .header {
+        padding: 20px 0;
+        width: 70%;
+        }
+
+        .nav {
+        display: flex;
+        justify-content: center;
+        
+        }
+
+        .nav__list {
+        display: flex;
+        list-style-type: none;
+        }
+
+        .nav__item {
+        margin-right: 10px;
+        }
+
+        .nav__link {
+        color: #b11e1e;
+        text-decoration: none;
+        font-size: x-large;
+        padding: 8px 16px;
+        border-radius: 10px;
+        }
+
+        .nav__link:hover {
+        color: #b11e1e;
+        box-shadow: 0px 0px 10px rgba(20, 61, 15, 0.8);
+        }
+
+        .my-button {
+        background-color: #cc2525; 
+        text-decoration: none;
+        color: #fff; 
+        padding: 10px 20px; 
+        border: none; 
+        cursor: pointer;
+        position: absolute;
+        top: 60%;
+        left: 46%;
+        font-size: xx-large;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+        }
+
+        .my-button:hover{
+            background-color: rgb(22, 73, 22);
+            transition: all 0.3s ease-out;
+        }
+
+        .pagename1{
+            position: absolute;
+            left: 38%;
+            font-size: 80px;
+            margin: 0px;
+            top: 18%;
+            color: rgb(22, 73, 22);
+        }
+        
+        .pagename2{
+            position: absolute;
+            left: 49%;
+            font-size: 130px;
+            margin: 0px;
+            top: 15%;
+        }
+
+        .pagename3{
+            position: absolute;
+            left: 53%;
+            font-size: 80px;
+            margin: 0px;
+            top: 18%;
+            color: #d3933f;
+        }
+
+        .aboutus_container {
+            background-color: white;
+            padding: 10px;
+            box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+            width: 95%;
+            height: 900px ;
+            margin: 50px auto;
+            position: relative;
+            border-radius: 12px;
+        }
+        .aboutus_container img {
+            width: 50%;
+            height: auto;
+            position: absolute;
+            top: 20%;
+            right: 0;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            /* add transition effect for smooth fade */
+        }
+
+        /* Show the first image initially */
+        .aboutus_container img:first-child {
+            opacity: 1;
+        }
+        .aboutus_texts{
+            position: absolute;
+            width: 50%;
+            left: 3%;
+            top: 10%;
+            height: 90%;
+        }
+        .aboutus_title{
+            text-align: center;
+            font-size: 45px;
+            margin: 0;
+            position: absolute;
+            top: 20%;
+        }
+        .aboutus_para{
+            font-size: 18px;
+            text-align: left;
+            margin: 0;
+            position: absolute;
+            top: 90%;
+        }
+        .joinus_button{
+            background-color: #cc2525; 
+            text-decoration: none;
+            color: #fff; 
+            padding: 10px 20px; 
+            border: none; 
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            font-size: xx-large;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+
+        }
+        .joinus_button:hover{
+            background-color: rgb(22, 73, 22);
+            transition: all 0.5s ease-out;
+        }
+        a{
+            transition: all 0.5s ease-out;
+        }
+        .about_container {
+            background-image: url(../images/aboutusbg.png);
+            background-size: cover;
+            background-position: center;
+            padding: 10px;
+            box-shadow: 0px 0px 10px rgba(1, 1, 1, 0.8);
+            width: 95%;
+            height: 900px ;
+            margin: 50px auto;
+            position: relative;
+            border-radius: 12px;
+        }
+
+        .product_container {
+            background-image: url(../images/prod_alter-bg.png);
+            background-size: 100%;
+            background-position: center;
+            padding: 10px;
+            box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+            width: 95%;
+            height: 580px ;
+            margin: 50px auto;
+            position: relative;
+            border-radius: 12px;
+        }
+        .box1{
+            background-image: url(../images/product_welcome.png);
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+            width: 15%;
+            height: 70%;
+            border-radius: 12px;
+            position: absolute;
+            top: 15%;
+            left: 20%;
+            z-index: 2;
+        }
+
+        .box2{
+            background-image: url(../images/product_fruitbg.jpg);
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+            width: 15%;
+            height: 65%;
+            border-radius: 12px;
+            position: absolute;
+            top: 17.5%;
+            left: 30%;
+            z-index: 1;
+            transition: 0.5s ease-in-out;
+        }
+        .product_details{
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+            display: none;
+            transition: all 0.5s ease-out;
+        }
+        .black_bg{
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+            opacity: 70%;
+            transition: all 0.5s ease-out;
+        }
+        .box3{
+            background-image: url(../images/product_vegbg.jpg);
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+            width: 15%;
+            height: 65%;
+            border-radius: 12px;
+            position: absolute;
+            top: 17.5%;
+            left: 10%;
+            z-index: 1;
+            transition: 0.5s ease-in-out;
+        }
+        .box4{
+            background-image: url(../images/product_fertlizerbg.jpg);
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+            width: 15%;
+            height: 60%;
+            border-radius: 12px;
+            position: absolute;
+            top: 20%;
+            left: 35%;
+            z-index: 0;
+            transition: 0.5s ease-in-out;
+        }
+        .box5{
+            background-image: url(../images/product_seedbg.jpg);
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+            width: 15%;
+            height: 60%;
+            border-radius: 12px;
+            position: absolute;
+            top: 20%;
+            left: 5%;
+            z-index: 0;
+            transition: 0.5s ease-in-out;
+        }
+        .box2:hover{
+            z-index: 3;
+            height: 75%;
+            top: 13%;
+            transition: 0.5s ease-in-out;
+        }
+        .box3:hover{
+            z-index: 3;
+            height: 75%;
+            top: 13%;
+            transition: 0.5s ease-in-out;
+        }
+        .box4:hover{
+            z-index: 2;
+            height: 75%;
+            top: 13%;
+            transition: 0.5s ease-in-out;
+        }
+        .box5:hover{
+            z-index: 2;
+            height: 75%;
+            top: 13%;
+            transition: 0.5s ease-in-out;
+        }
+        .box2:hover > .product_details{
+            display: block;
+            transition: all 0.5s ease-out;
+        }
+        .box3:hover > .product_details{
+            display: block;
+            transition: all 0.5s ease-out;
+        }
+        .box4:hover > .product_details{
+            display: block;
+            transition: all 0.5s ease-out;
+        }
+        .box5:hover > .product_details{
+            display: block;
+            transition: all 0.5s ease-out;
+        }
+
+        .link {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        .fruit-button{
+            position: absolute;
+            font-size: xx-large;
+            right: 27%;
+            top: 45%;
+            background-color: #d3933f;
+            border-radius: 12px;
+            border: 0px;
+            margin: 0px;
+            padding: 10px;
+        }
+        .fruit-button:hover{
+            background-color:rgb(22, 73, 22) ;
+            transition: 0.5s ease-in-out;
+            color: white;
+        }
+        .contactus_container {
+            background-image: url(../images/contactus_bg.png);
+            background-size: 100%;
+            background-position: center;
+            padding: 10px;
+            box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+            width: 95%;
+            height: 900px ;
+            margin: 50px auto;
+            position: relative;
+            border-radius: 12px;
+        }
+        .contact{
+            position: absolute;
+            width: 40%;
+            height: 75%;
+            left: 55%;
+            top: 2%;
+        }
+        label{
+            font-size: 25px;
+        }
+        #emailid{
+            font-size: 25px;
+            border-radius: 12px;
+            width: 70%;
+            padding: 10px;
+            border: 0;
+            margin-bottom: 25px;
+            box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+        }
+        #subject{
+            font-size: 25px;
+            border-radius: 12px;
+            padding: 10px;
+            border: 0;
+            margin-top: 1.5%;
+            box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+        }
+        .send_button{
+            font-size: xx-large;
+            position: absolute;
+            left:28%;
+            top: 90%;
+            width: 50%;
+            background-color: #cc2525; 
+            color: #fff; 
+            padding: 10px 20px; 
+            border: none; 
+            cursor: pointer;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+        }
+        .send_button:hover{
+            background-color: rgb(22, 73, 22);
+            transition: all 0.3s ease-out;
+        }
+        .fa {  
+            padding: 8px;  
+            text-align: center;  
+            font-size: 30px;  
+            width: 30px;
+            height:30px;
+            border-radius: 50%;  
+            color: black;
+        }  
+        .fa-facebook:hover {   
+            color: #3b5998; 
+            transition: all 0.3s ease-out;
+        }  
+        .fa-twitter:hover {    
+            color: #55acee;  
+            transition: all 0.3s ease-out;
+        }  
+        .fa-linkedin:hover {    
+            color: #0082ca;  
+            transition: all 0.3s ease-out;
+        }  
+        .fa-instagram:hover {   
+            color: #ac2bac;  
+            transition: all 0.3s ease-out;
+        }  
+        .fa-youtube:hover {  
+            color: #ed302f;  
+            transition: all 0.3s ease-out;
+        }  
+        .social_media{
+            position: absolute;
+            top: 93%;
+            left: 85%;
+        }
+        .footer_container{
+            padding: 10px;
+            box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+            width: 95%;
+            height: 50px ;
+            margin: 50px auto;
+            position: relative;
+            border-radius: 12px;
+            background-color: ivory;
+        }

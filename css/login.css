@@ -1,0 +1,295 @@
+body {
+    background-color: rgb(247, 78, 0);
+    font-family: poppins;
+}
+
+.login_container {
+    background-image: url(../images/login_bg.png);
+    background-size: 105%;
+    background-position: center;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+    width: 95%;
+    height: 900px;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 12px;
+}
+
+.header {
+    padding: 20px 0;
+    width: 50%;
+    position: absolute;
+    top: 3%;
+}
+
+.nav {
+    display: flex;
+    position: absolute;
+    left: 90%;
+    top: 5%;
+    background-color: rgb(247, 78, 0);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    height: 20%;
+    width: 10%;
+
+
+}
+
+.nav__list {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav__item {
+    margin-right: 30px;
+}
+
+.nav__link {
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+    padding: 8px 16px;
+    border-radius: 10px;
+    position: absolute;
+    top: 35%;
+}
+
+.nav__link:hover {
+    color: white;
+    background-color: rgb(247, 78, 0);
+    transition: all 0.5s ease-out;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+
+}
+
+#home_icon {
+    padding: 8px;
+    text-align: center;
+    font-size: 45px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: black;
+    position: absolute;
+    top: 3.5%;
+    left: 3%;
+}
+
+#home_icon:hover {
+    color: white;
+    transition: all 0.5s ease-out;
+}
+
+.login-form {
+    background-color: rgba(0, 0, 0, 0.363);
+    width: 40%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+h1 {
+    position: absolute;
+    top: 5%;
+    left: 39%;
+    font-size: 50px;
+}
+
+#email {
+    position: absolute;
+    font-size: 20px;
+    padding: 12px;
+    width: 70%;
+    top: 35%;
+    left: 15%;
+    border-radius: 10px;
+    border: 0;
+    text-align: center;
+}
+
+#password {
+    position: absolute;
+    font-size: 20px;
+    padding: 12px;
+    width: 70%;
+    top: 50%;
+    left: 15%;
+    border-radius: 10px;
+    border: 0;
+    text-align: center;
+}
+
+#login-button {
+    position: absolute;
+    font-size: 40px;
+    top: 65%;
+    left: 35%;
+    background-color: rgb(247, 78, 0);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 30%;
+    border: 0;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+    cursor: pointer;
+}
+
+#login-button:hover {
+    background-color: rgb(22, 73, 22);
+    transition: 0.5s ease-in-out;
+}
+
+.to_register {
+    font-size: 20px;
+    position: absolute;
+    top: 80%;
+    left: 28%;
+}
+
+#mail_icon {
+    z-index: 2;
+    font-size: 30px;
+    position: absolute;
+    top: 35%;
+    left: 17%;
+}
+
+#password_icon {
+    z-index: 2;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 17%;
+}
+
+.aboutus_para {
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 3%;
+}
+
+.footer_container {
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+    width: 95%;
+    height: 50px;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 12px;
+    background-color: ivory;
+}
+
+.pagename1 {
+    position: absolute;
+    left: 21%;
+    font-size: 50px;
+    margin: 0px;
+    top: 4%;
+    color: rgb(22, 73, 22);
+}
+
+.pagename2 {
+    position: absolute;
+    left: 28.5%;
+    font-size: 100px;
+    margin: 0px;
+    top: 1;
+}
+
+.pagename3 {
+    position: absolute;
+    left: 32%;
+    font-size: 50px;
+    margin: 0px;
+    top: 4%;
+    color: #d3933f;
+}
+
+.fa {
+    padding: 8px;
+    text-align: center;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: black;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+    transition: all 0.3s ease-out;
+}
+
+.fa-twitter:hover {
+    color: #55acee;
+    transition: all 0.3s ease-out;
+}
+
+.fa-linkedin:hover {
+    color: #0082ca;
+    transition: all 0.3s ease-out;
+}
+
+.fa-instagram:hover {
+    color: #ac2bac;
+    transition: all 0.3s ease-out;
+}
+
+.fa-youtube:hover {
+    color: #ed302f;
+    transition: all 0.3s ease-out;
+}
+
+.social_media {
+    position: absolute;
+    top: 93%;
+    left: 85%;
+}
+
+.logo {
+    background-image: url(../images/logo2-2.png);
+    background-size: cover;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 4%;
+    left: 16%;
+}
+
+.home {
+    position: absolute;
+    background-color: rgb(247, 78, 0);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 20%;
+    width: 10%;
+    top: 5%;
+    right: 90%;
+}
+
+.home_link {
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+    padding: 8px 16px;
+    border-radius: 10px;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+
+.home_link:hover {
+    color: white;
+    background-color: rgb(247, 78, 0);
+    transition: all 0.5s ease-out;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+}

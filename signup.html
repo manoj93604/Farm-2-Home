@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm2Home-Signup</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
+
+</head>
+<body>
+    <div class="signup_container">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="login.html" class="nav__link">Signin</a></li>
+                </ul>
+            </nav>
+        </header>
+        <b>
+            <p class="pagename1">Farm</p>
+            <p class="pagename2">2</p>
+            <p class="pagename3">Home</p>
+        </b>
+        <p class="aboutus_para">Connect with other farmers, <br>grow your business, and
+            contribute to a sustainable future.
+        </p>
+        <section id="registration">
+        <div class="signup_form">
+            <h2>Sign Up</h2>
+            <form action="register.php" method="post">
+                <i class="fa fa-user-circle-o icon" id="user_icon"></i>
+                <input type="text" id="user_name" name="user_name" required placeholder="User Name"><br>
+
+                <i class="fa fa-address-card icon" id="usertype_icon"></i>
+                <input type="text" id="user_type" name="user_type" required placeholder="User Type"><br>
+
+                <i class="fa fa-mobile icon" id="mobile_icon"></i>
+                <input type="tel" id="mobile_number" name="mobile_number" required placeholder="Mobile Number"><br>
+
+                <i class="fa fa-envelope icon" id="email_icon"></i>
+                <input type="email" id="email" name="email" required placeholder="Email Id"><br>
+
+                <i class="fa fa-lock icon" id="lock_icon"></i>
+                <input type="password" id="password" name="password" required placeholder="Password"><br>
+
+                <i class="fa fa-key icon" id="key_icon"></i>
+                <input type="password" id="retype_password" name="retype_password" required placeholder="Re-enter Password"><br>
+
+                <input type="submit" value="Register" id="register_button">
+            </form>
+            <p class="to_signin">Already have an account? <a href="login.html">Sign In</a></p>
+        </div>
+        </section>
+        <div class="social_media_container">
+            <ul>
+                <a href="#" id="socialmedia_fb"><i class="fa fa-facebook"></i></a>
+                <a href="#" id="socialmedia_tw"><i class="fa fa-twitter" ></i></a>
+                <a href="#" id="socialmedia_insta"><i class="fa fa-instagram" ></i></a>
+                <a href="#" id="socialmedia_ln"><i class="fa fa-linkedin" ></i></a>
+                <a href="#" id="socialmedia_yt"><i class="fa fa-youtube" ></i></a>
+            </ul>
+        </div>
+    </div>
+    <div class="footer_container">
+        <center>
+            <p>&copy; 2023 Farm 2 Home. All rights yet to receive. | Website by Manoj</p>
+        </center>
+    </div>
+    
+</body>
+</html>

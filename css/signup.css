@@ -1,0 +1,333 @@
+body {
+    background-color: rgb(247, 78, 0);
+    font-family: poppins;
+}
+
+.signup_container {
+    background-image: url(../images/signup_bg-1.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+    width: 95%;
+    height: 900px;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 12px;
+}
+
+.signup_form {
+    background-color: rgba(0, 0, 0, 0.363);
+    width: 40%;
+    height: 78.5%;
+    position: absolute;
+    top: 14.8%;
+    left: 3%;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+i {
+    z-index: 2;
+}
+
+.fa {
+    font-size: 30px;
+}
+
+#user_name {
+    position: absolute;
+    font-size: 20px;
+    padding: 12px;
+    width: 70%;
+    top: 20%;
+    left: 15%;
+    border-radius: 10px;
+    border: 0;
+    text-align: center;
+}
+
+#user_icon {
+    position: absolute;
+    left: 18%;
+    top: 21.5%;
+}
+
+#user_type {
+    position: absolute;
+    font-size: 20px;
+    padding: 12px;
+    width: 70%;
+    top: 30%;
+    left: 15%;
+    border-radius: 10px;
+    border: 0;
+    text-align: center;
+
+}
+
+#usertype_icon {
+    position: absolute;
+    left: 18%;
+    top: 31.5%;
+}
+
+#mobile_number {
+    position: absolute;
+    font-size: 20px;
+    padding: 12px;
+    width: 70%;
+    top: 40%;
+    left: 15%;
+    border-radius: 10px;
+    border: 0;
+    text-align: center;
+}
+
+#mobile_icon {
+    position: absolute;
+    left: 18.8%;
+    top: 41%;
+    font-size: 40px;
+}
+
+#email {
+    position: absolute;
+    font-size: 20px;
+    padding: 12px;
+    width: 70%;
+    top: 50%;
+    left: 15%;
+    border-radius: 10px;
+    border: 0;
+    text-align: center;
+}
+
+#email_icon {
+    position: absolute;
+    left: 18%;
+    top: 51.5%;
+}
+
+#password {
+    position: absolute;
+    font-size: 20px;
+    padding: 12px;
+    width: 70%;
+    top: 60%;
+    left: 15%;
+    border-radius: 10px;
+    border: 0;
+    text-align: center;
+}
+
+#lock_icon {
+    position: absolute;
+    left: 18.8%;
+    top: 61.5%;
+}
+
+#retype_password {
+    position: absolute;
+    font-size: 20px;
+    padding: 12px;
+    width: 70%;
+    top: 70%;
+    left: 15%;
+    border-radius: 10px;
+    border: 0;
+    text-align: center;
+}
+
+#key_icon {
+    position: absolute;
+    left: 18%;
+    top: 71.5%;
+}
+
+#register_button {
+    position: absolute;
+    font-size: 40px;
+    top: 80%;
+    left: 35%;
+    background-color: rgb(247, 78, 0);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 30%;
+    border: 0;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+    cursor: pointer;
+}
+
+#register_button:hover {
+    background-color: rgb(22, 73, 22);
+    transition: 0.5s ease-in-out;
+}
+
+.to_signin {
+    font-size: 20px;
+    position: absolute;
+    top: 88%;
+    left: 28%;
+}
+
+.pagename1 {
+    position: absolute;
+    left: 4.5%;
+    font-size: 50px;
+    margin: 0px;
+    top: 4%;
+    color: rgb(22, 73, 22);
+}
+
+.pagename2 {
+    position: absolute;
+    left: 11.5%;
+    font-size: 100px;
+    margin: 0px;
+    top: 1;
+}
+
+.pagename3 {
+    position: absolute;
+    left: 15%;
+    font-size: 50px;
+    margin: 0px;
+    top: 4%;
+    color: #d3933f;
+}
+
+.aboutus_para {
+    font-size: 25px;
+    text-align: left;
+    margin: 0;
+    position: absolute;
+    top: 4%;
+    left: 25%;
+}
+
+.header {
+    padding: 20px 0;
+    width: 70%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 80%;
+
+}
+
+.nav__list {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav__item {
+    margin-right: 50px;
+}
+
+.nav__link {
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+    padding: 8px 16px;
+    border-radius: 10px;
+    background-color: rgb(247, 78, 0);
+}
+
+.nav__link:hover {
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    transition: 0.3s ease-in-out;
+}
+
+.social_media_container {
+    background-color: rgb(247, 78, 0);
+    width: 4%;
+    height: 30%;
+    position: absolute;
+    left: 96%;
+    top: 35%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+
+}
+
+#socialmedia_fb {
+    position: absolute;
+    top: 10%;
+    right: 38%;
+    color: black;
+}
+
+#socialmedia_tw {
+    position: absolute;
+    top: 25%;
+    right: 30%;
+    color: black;
+}
+
+#socialmedia_insta {
+    position: absolute;
+    top: 42%;
+    right: 30%;
+    color: black;
+}
+
+#socialmedia_ln {
+    position: absolute;
+    top: 60%;
+    right: 30%;
+    color: black;
+}
+
+#socialmedia_yt {
+    position: absolute;
+    top: 80%;
+    right: 30%;
+    color: black;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+    transition: all 0.3s ease-out;
+}
+
+.fa-twitter:hover {
+    color: #55acee;
+    transition: all 0.3s ease-out;
+}
+
+.fa-linkedin:hover {
+    color: #0082ca;
+    transition: all 0.3s ease-out;
+}
+
+.fa-instagram:hover {
+    color: #ac2bac;
+    transition: all 0.3s ease-out;
+}
+
+.fa-youtube:hover {
+    color: #ed302f;
+    transition: all 0.3s ease-out;
+}
+
+.footer_container {
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0.8, 0.8, 0.8, 0.8);
+    width: 95%;
+    height: 50px;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 12px;
+    background-color: ivory;
+}
