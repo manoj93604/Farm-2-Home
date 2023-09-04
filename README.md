@@ -1,4 +1,4 @@
-# Farm-2-Hone
+# Farm-2-Home
 Connecting Farmers and Buyers for Direct Transactions and Eliminate Middlemen and Improve Access to Markets and It is a platform for farmers to come together to connect, trade, and thrive.
 
 ![Screenshot (316)](https://github.com/manoj93604/Farm-2-Hone/assets/92907123/20d0e7c5-fc92-4ceb-b1cf-8e59734307e6)
